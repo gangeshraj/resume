@@ -139,7 +139,7 @@ var projects={
             "title": "DRAWING CANVAS(click to see)",
             "hosted": "https://gangeshraj.github.io/2-D-canvas/",
             "dates": "1-09-2017",
-            "description": "A canvas where you can draw with your wish of colors and size of canvas ",
+            "description": "A canvas where you can draw with your wish of colors and size of canvas.  Technologies used:  JavaScript, jQuery, HTML, CSS",
             "images": ['./images/canvas1.png','./images/canvas2.png','./images/canvas3.png']
             }
             ,
@@ -147,7 +147,7 @@ var projects={
             "title": "JASMINE TESTING(click to see)",
             "hosted": "https://gangeshraj.github.io/Jasmine-testing/",
             "dates": "10-09-2017",
-            "description": "Project on jasmine testing ",
+            "description": "Project on jasmine testing.Testing framework used is jasmine ",
             "images": []
             }    
 
