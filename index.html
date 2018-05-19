@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- This tells the browser how to read the document. -->
+  <meta charset="utf-8">
+
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Resume</title>
+
+  <!-- Load the page styles. -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <div id="main"><!-- You'll be deleting this line in the course -->
+    <div id="header" style="margin-left:-40px" class="center-content clear-fix">
+        <ul id="topContacts" class="flex-box"></ul>
+    </div>
+    <!--<div style="clear: both;"></div>-->
+    <div id="workExp" class="gray">
+      <h2>Work Experience</h2>
+    </div>
+    <div id="project">
+      <h2>Projects</h2>
+    </div>
+    <div id="Education" class="gray">
+      <h2>Education/Certifications</h2>
+    </div>
+    <div id="Achievements" class="achievements">
+      <h2>Achievements/Certificates</h2>
+      <ol>
+        <li><h3>All WORLD RANK 9017 out of 131970 progammers in Competetive Coding Website "Interviewbit.com"</h3></li>
+        <li><h3>All INDIA RANK 6777 out of 96878 candidates in Graduate Aptitude Test in Engineering for Computer Science 2017.</h3></li>
+        <li><h3>Certificate of completion of UDACITY FRONT-END WEB DEVELOPER NANODEGREE PROGRAM</h3></li>
+        <li><h3>Qualified 1st round Global coding competition CodeVita organized by TCS in 2016.</h3></li>
+        <li><h3>1739 rank in a Global coding competition CodeVita organized by TCS in 2015.<h3></li>
+      </ol>
+    </div>
+    <div id="kmapDiv">
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="lets-connect" class="dark-gray">
+          <h2 class="orange center-text">Let's Connect</h2>
+          <ul id="downContacts" class="flex-box"></ul>
+    </div>
+  </div>
+  <script src="js/jQuery.js"></script>
+
+  <!-- More on helper.js in the class -->
+  <script src="js/helper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+
+ <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC50oEQU28ltVjDADiBimquB9L4lf8BILY"></script>
+
+  <script>
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
