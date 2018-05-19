@@ -134,6 +134,15 @@ var projects={
             "description": "Personal online Resume where each detail is stored in JavaScript object and DOM is manipulated using jQuery And Google Map API shows places where I have worked.       Technologies used:  JavaScript, jQuery, HTML, CSS ",
             "images": ['./images/resume1.png','./images/resume2.png','./images/resume3.png']
             },
+            ,
+            {
+            "title": "DRAWING CANVAS(click to see)",
+            "hosted": "https://gangeshraj.github.io/2-D-canvas/",
+            "dates": "1-09-2017",
+            "description": "A canvas where you can draw with your wish of colors and size of canvas ",
+            "images": ['./images/canvas1.png','./images/canvas2.png','./images/canvas3.png']
+            }
+            ,
             {
             "title": "JASMINE TESTING(click to see)",
             "hosted": "https://gangeshraj.github.io/Jasmine-testing/",
