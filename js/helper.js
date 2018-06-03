@@ -1,5 +1,5 @@
-var HTMLheaderName = '<h1 id="name"><b>%data%</b></h1>';
-var HTMLheaderRole = '<span style="color:white">%data%</span><hr>';
+var HTMLheaderName = '<h1 id="name" style="position:relative;left:30px;"><b>%data%</b></h1>';
+var HTMLheaderRole = '<span style="color:white;position:relative;left:30px;" >%data%</span><hr>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li>';
@@ -15,30 +15,30 @@ var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills
 var HTMLskills = '<li><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="#" class="indentleft">%data%';
+var HTMLworkEmployer = '<a href="#" class="indentleft" target="_blank">%data%';
 var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<span><div class="indentleft date-text">%data%</div></span>';
 var HTMLworkLocation = '<span><div class="indentright location-text ">%data%</div></span>';
 var HTMLworkDescription = '<p class="indentleft indentright"><br/>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
+var HTMLprojectTitle = '<a href="#"  class="projecttitle" target="_blank">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div><br/>';
 var HTMLprojectDescription = '<p>%data%</p>';
 var HTMLprojectImage = '<img src="%data%" class="projectImage">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<a href="#">%data%';
+var HTMLschoolName = '<a href="#"  target="_blank">%data%';
 var HTMLschoolDegree = ' - %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div><br/>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br/>Major: %data%</em>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<a class="indentleft" href="https://drive.google.com/open?id=1zMklcQzb8AhjzFnuEYOfGXl1FJi9ovtp">%data%';
+var HTMLonlineTitle = '<a class="indentleft" href="https://drive.google.com/open?id=1zMklcQzb8AhjzFnuEYOfGXl1FJi9ovtp"  target="_blank">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="indentleft date-text">%data%</div><br/>';
-var HTMLonlineURL = '<a class="indentleft">%data%</a>';
+var HTMLonlineURL = '<a class="indentleft"  target="_blank">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
