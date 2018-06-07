@@ -9,8 +9,8 @@ var bio={
         "location": "Bangalore"
     },
     "welcomeMessage": "Welcome I hope you have a great day!",
-    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, css ,Bootstrap javascript ES->6","Node , Express , spring",
-    "python , java , c","Oracle , MySql"],
+    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, Css ,Bootstrap,Javascript ES->6","Node , Express , spring",
+    "Python , Java , C","Oracle , MySql"],
     "biopic": "images/logo.jpg",
     "display": function() {
         var mname= HTMLheaderRole.replace("%data%",bio.name);
@@ -98,9 +98,9 @@ var projects={
             "title": " A BURGER BUILDER SINGLE PAGE APP (click to see) ",
             "hosted":"https://burger-app-react-gangesh.firebaseapp.com/",
             "dates": "27-04-18",
-            "description": `Developed single page application which creates a burger with some ingredients where user chooses its ingredients.\n 
-                            A user to order a burger needs to sign up if signed up needs to login can order its burger by filling contact details\n
-                        Technologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
+            "description": `Developed single page application which creates a burger with some ingredients.A user 
+            chooses its ingredients.\n A user to order a burger must need to sign up and if signed up needs to login than only order its burger 
+            by filling contact details.\nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
             "images": ['./images/burger1.png','./images/burger2.png','./images/burger3.png','./images/burger4.png',
             './images/burger5.png','./images/burger6.png','./images/burger7.png'
             ,'./images/burger8.png','./images/burger9.png','./images/burger10.png']
