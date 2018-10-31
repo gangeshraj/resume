@@ -57,6 +57,12 @@ var work={
           "location": "Bangalore" ,
           "dates": "06-11-17",
           "description": "Working on lot of technologies Angular , react developed front end pages ,used Node , Express  for backend. Database used was my sql and oracle. Recently Now moving to Spring 5 coding is fun!"
+         },
+         {"employer": "Air Asia",
+          "title": "Associate Software Engineer" ,
+          "location": "Bangalore" ,
+          "dates": "03-09-18",
+          "description": "Working on lot of technologies mainly Angular, node.js ,django ,flask !"
          }
           ],
         "display": function() {
