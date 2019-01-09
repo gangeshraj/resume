@@ -1,0 +1,25 @@
+{
+  "name": "gangesh-resume",
+  "version": "1.0.0",
+  "description": "# Project Details",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.4.4",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangeshraj/resume.git"
+  },
+  "author": "Gangesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gangeshraj/resume/issues"
+  },
+  "homepage": "https://github.com/gangeshraj/resume#readme"
+}
