@@ -9,7 +9,7 @@ var bio={
         "location": "Bangalore"
     },
     "welcomeMessage": "Welcome I hope you have a great day!",
-    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, Css ,Bootstrap,Javascript ES->6","Node , Express , spring",
+    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, Css ,Bootstrap,Javascript","Node , Express,MongoDb",
     "Python , Java , C","Oracle , MySql"],
     "biopic": "images/logo.jpg",
     "display": function() {
@@ -32,8 +32,8 @@ var bio={
        $('#header').append(HTMLskillsStart);
        var skillsdescription;
        bio.skills.forEach(function(item){
-              skillsdescription=HTMLskills.replace('%data%',item);
-              $('#header').append(skillsdescription);
+        skillsdescription=HTMLskills.replace('%data%',item);
+        $('#header').append(skillsdescription);
        });
 
        mobile=HTMLmobile.replace("%data%",bio.contacts.mobile);
