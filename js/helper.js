@@ -8,7 +8,7 @@ var HTMLtwitter = '<li class="flex-item"><span class="orange-text">Twitter</span
 var HTMLgithub = '<li class="flex-item"><span class="orange-text">Github</span><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">Location</span><span class="white-text">%data%</span></li><br/><br/>';
-var HTMLbioPic = '<img src="%data%" class="biopic">';
+var HTMLbioPic = '<div class="biopic"><img class="biopic-children"  src="%data%"><img class="biopic-children-back"  src="images/logo2.jpg"></div>';
 var HTMLwelcomeMsg = '<h2 class="welcome-message">%data%</h2>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3>';

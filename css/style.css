@@ -303,7 +303,32 @@ li{
   height:280px;
   width:280px;
   shape-outside:circle(50%);
+  transition:all linear infinite;
+  position:relative;
+  z-index:2;
 }
+
+.biopic-children{
+  height:280px;width:280px;padding:0px;display:inline-block;border-radius:50%;
+}
+
+.biopic-children-back{
+  height:280px;
+  width:280px;
+  border-radius:50%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+
+
+.biopic:hover{
+  transform:scale(1.02);
+  cursor:pointer;
+}
+
+
 
 #skills-h3{
   display:block;
@@ -327,7 +352,7 @@ li{
   text-align:center;
   font-style: italic;
   position:relative;
-  left:10px;
+  left:5px;
   font-size:none;
   color: rgb(209, 204, 204);
   line-height: 28px;
@@ -342,13 +367,29 @@ li{
 @media only screen and (max-width: 1100px) {
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .biopic{
-  height:200px;
-  width:200px;
+  height:220px;
+  width:220px;
   margin:auto;
   display:block;
   float:none;
+  }
+  .biopic-children{
+    height:220px;width:220px;
+  }
+  .biopic-children-back{
+    height:220px;
+    width:220px;
+  }
+  
+  .welcome-message,
+  #skills-h3,
+  .technology
+  {
+    position:static;
+    text-align:center;
+    display:block;
   }
   .flex-item{
     text-align:center;
