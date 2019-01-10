@@ -303,15 +303,16 @@ li{
   height:280px;
   width:280px;
   shape-outside:circle(50%);
-  transition:all linear 0.5s 0s;
   position:relative;
-  z-index:2;
+  z-index:12;
+  cursor: pointer;
 }
 
 .biopic-children{
   height:280px;width:280px;padding:0px;display:inline-block;border-radius:50%;z-index:2;position:relative;
-  transition:all linear 0.5s 0s;
+  transition:all ease-out 1s 0s;
   transform:rotateY(0deg);
+  backface-visibility: hidden;
 }
 
 .biopic-children-back{
@@ -323,8 +324,10 @@ li{
   left:0;
   padding:0px;
   transform:rotateY(180deg);
-  transition:all linear 0.5s 0s;
-  z-index:1;
+  transition:all ease-out 1s 0s;
+  z-index:12;
+  backface-visibility: hidden;
+
 }
 
 
@@ -335,12 +338,12 @@ li{
   cursor:pointer;
 } */
 
-.biopic-children:hover{
-  transform:rotateY(90deg);
+.biopic:hover .biopic-children{
+  transform:rotateY(-180deg);
 }
 
-.biopic-children + .biopic-children-back:hover{
-  transform:rotateY(-180deg);
+.biopic:hover .biopic-children-back{
+  transform:rotateY(0deg);
 }
 
 
@@ -399,7 +402,9 @@ li{
     height:220px;
     width:220px;
   }
-  
+  .welcome-message{
+    padding: 20px 0px 0%;
+  }
   .welcome-message,
   #skills-h3,
   .technology
