@@ -167,7 +167,7 @@ var projects={
                             a="<a href='"+project.hosted+"'>"+project.title+"</a>";
                             console.log(a);
                         }
-                        a='<h3 style="margin-left:-70px">'+a+"</h3>";
+                        a='<h3 class="project-container" >'+a+"</h3>";
                         $('.project-entry').append(a);
                         a=HTMLprojectDates.replace("%data%",project.dates);
                         $('.project-entry').append(a);

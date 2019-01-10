@@ -15,9 +15,9 @@ var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3>';
 var HTMLskills = '<div class="technology"><span class="white-text">%data%</span></div>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="#" class="indentleft" target="_blank">%data%';
+var HTMLworkEmployer = '<a href="#" class="indentleft" style="font-size:24px; margin-left:0%;"target="_blank">%data%';
 var HTMLworkTitle = ' - %data%</a>';
-var HTMLworkDates = '<span><div class="indentleft date-text">%data%</div></span>';
+var HTMLworkDates = '<span><div class="indentleft  date-text">%data%</div></span>';
 var HTMLworkLocation = '<span><div class="indentright location-text ">%data%</div></span>';
 var HTMLworkDescription = '<p class="indentleft indentright"><br/>%data%</p>';
 
