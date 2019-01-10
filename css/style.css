@@ -402,6 +402,19 @@ li{
   font-weight: bold;
 }
 
+.connect-socially{
+  display: flex;
+  flex-direction: column;
+}
+.connect-socially div{
+    height:33.333333%;
+    width:100%;
+}
+
+.connect-socially:hover{
+  cursor: pointer;;
+}
+
 #lets-connect{
  margin-top: 0px;
 }
