@@ -460,6 +460,9 @@ li{
   .flex-item{
     text-align:center;
   }
+  #header{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+  }
   .technology:last-child{
     padding-bottom:120px;
   }
