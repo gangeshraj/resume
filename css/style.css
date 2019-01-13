@@ -435,8 +435,10 @@ li{
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-filter:brightness(1.5);
+  filter:brightness(1.5);
 }
 .connect-socially div{
     height:33.333333%;
