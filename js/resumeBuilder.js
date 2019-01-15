@@ -153,7 +153,7 @@ var projects={
             "title": "JASMINE TESTING(click to see)",
             "hosted": "https://gangeshraj.github.io/Jasmine-testing/",
             "dates": "10-09-2017",
-            "description": "Project on jasmine testing.Testing framework used is jasmine ",
+            "description": "Project on testing.Testing framework used is jasmine ",
             "images": []
             }    
 
