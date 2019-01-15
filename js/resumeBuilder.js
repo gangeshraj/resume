@@ -1,7 +1,7 @@
 
 var bio={
     "name": "GANGESH RAJ SHARMA",
-    "role": "ME(A+R)N stack developer",
+    "role": "SOFTWARE ENGINEER & ME(A+R)N stack developer",
     "contacts": {
         "mobile": "8340450653",
         "email": "gangeshraj1@gmail.com",
@@ -9,7 +9,7 @@ var bio={
         "location": "Bangalore"
     },
     "welcomeMessage": "Welcome I hope you have a great day!",
-    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, Css ,Bootstrap,Javascript","Node , Express,MongoDb",
+    "skills": ["Angular 6 , React 16 ,Redux, Redux -saga,Redux-thunk" ,"jQuery , Html, Css ,Bootstrap,Javascript Typesctipt","Node , Express,MongoDb",
     "Python , Java , C","Oracle , MySql"],
     "biopic": "images/logo.jpg",
     "display": function() {
@@ -52,17 +52,17 @@ bio.display();
 var work={
         "jobs":
          [
+         {"employer": "Air Asia",
+          "title": "Software Engineer" ,
+          "location": "Bangalore" ,
+          "dates": "03-09-18",
+          "description": "Developed front page of AirAsia.com.Our objective was to have fast loading time within 3 seconds with the beautiful designs. We used angular 7 without any libraries.Components developed here should be robust independent and usable anywhere. Successfully released front page with new versions to come.Worked on All the Ui features which developed from plain typescript,css which makes the page fast,optimal. We avoided using anythird party libraries other than base framework Angular 7 "
+         },
          {"employer": "Infosys Limited",
           "title": "System Engineer" ,
           "location": "Bangalore" ,
           "dates": "06-11-17",
-          "description": "Working on lot of technologies Angular , react developed front end pages ,used Node , Express  for backend. Database used was my sql and oracle. Recently Now moving to Spring 5 coding is fun!"
-         },
-         {"employer": "Air Asia",
-          "title": "Associate Software Engineer" ,
-          "location": "Bangalore" ,
-          "dates": "03-09-18",
-          "description": "Working on lot of technologies mainly Angular, node.js ,django ,flask !"
+          "description": "In Infosys trainig Mysore developed a digital wallet where people have all the online booking,transaction features. Worked on Movie booking platform which we developed in Angular 4 with node express as backend where people could see book the tickets with dummy backend. After training worked with American Express via Infosys to develop UI designs using React,Redux. The design was highly scalable with redux as the central state to manage all the Client and banking data across the web app. "
          }
           ],
         "display": function() {
@@ -90,13 +90,13 @@ var projects={
            {
             "title": " Digital Wallet (Infosys Training) ",
             "dates": "06-11-17",
-            "description": "Developed a Digital Wallet in module where we tested the code using pytest.Front – End: - Python,Back – End: –Oracle",
+            "description": "Developed a Digital Wallet using python ,oracle as back end with dummy data.The user had all the options which a digital wallet would offer. Recharge of mobile number ,adding money in wallet from banks ,attaching card and bank details with wallet account,transferring money to other user accounts,Lending money to other users,booking tickets etc",
             "images": []
            },
            {
             "title": " Movie Booking Platform (Infosys Training) ",
             "dates": "10-01-2018",
-            "description": "Developed a movie booking platform.Front – End: Angular, typescript. HTML, CSS, bootstrap, jQuery. Back – End: JavaScript, Node, Express MySQL.",
+            "description": "Developed a movie booking platform.Here user could login with his credentials after signing up.Than user could start see the tickets that are available in a beatiful UI representation for so and so dates. After  confirming the tickets user could buy the tickets. All the validations are done in front end side and also at back end side .Front – End: Angular, typescript. HTML, CSS, bootstrap, jQuery. Back – End: JavaScript, Node, Express MySQL.",
             "images": []
             }
             ,
