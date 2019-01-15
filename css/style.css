@@ -134,6 +134,7 @@ a {
 /* TODO: Replace with image later */
 #header {
   background-color: #484848;
+  text-align: center;
 }
 
 .center-content {
@@ -250,8 +251,8 @@ span {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-  padding-left:3%;
-  padding-right: 3%; 
+  padding-left:4%;
+  padding-right: 4%; 
 }
 }
 
