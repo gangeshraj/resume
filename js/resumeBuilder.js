@@ -137,7 +137,7 @@ var projects={
             {
             "title": "ONLINE RESUME(click to see)",
             "dates": "15-09-2017",
-            "description": "Personal online Resume where each detail is stored in JavaScript object and DOM is manipulated using jQuery And Google Map API shows places where I have worked.       Technologies used:  JavaScript, jQuery, HTML, CSS ",
+            "description": "Personal online Resume where each detail is stored in JavaScript object. This Object stored is inserted into HTML template using jQuery.This project also uses Google Map API to shows places where I have worked and lived.       Technologies used:  JavaScript, jQuery, HTML, CSS ",
             "images": ['./images/resume1.png','./images/resume2.png','./images/resume3.png']
             },
             ,
