@@ -232,12 +232,7 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 750px) {
-  #skills-h3,
-  {
-    display: block;
-  }
-}
+
 /*my changes*/
 
 .flex-box {
@@ -401,6 +396,7 @@ li{
   color:black;
   position:relative;
   left:30px;
+  text-align: left;
 }
 .technology .white-text{
   color:#f3f3f3;
@@ -513,5 +509,16 @@ li{
 
 .certificate_id{
   margin-left:0px;
+}
+
+@media only screen and (min-width: 700px) {
+  #skills-h3,
+  {
+    display: block;
+  }
+  .welcome-message{
+    display:block;
+    text-align: left;
+  }
 }
 
