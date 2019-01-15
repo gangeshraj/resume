@@ -1,7 +1,7 @@
 
 var bio={
     "name": "GANGESH RAJ SHARMA",
-    "role": "SOFTWARE ENGINEER & ME(A+R)N stack developer",
+    "role": "SOFTWARE & ME(A+R)N stack developer",
     "contacts": {
         "mobile": "8340450653",
         "email": "gangeshraj1@gmail.com",
