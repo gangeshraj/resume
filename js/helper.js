@@ -1,4 +1,4 @@
-var HTMLheaderName = '<h1 id="name" style="margin-right:50px;"><b>%data%</b></h1>';
+var HTMLheaderName = '<h1 id="name" style="margin-right:20px;"><b>%data%</b></h1>';
 var HTMLheaderRole = '<div style="color:white;display:inline-block;" >%data%</div><hr>';
 
 //var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
