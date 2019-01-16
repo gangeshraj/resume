@@ -106,7 +106,7 @@ var projects={
             "dates": "27-04-18",
             "description": `Developed single page application which creates a burger with some ingredients with a beautifulUI .A user chooses its ingredients which is seen in beautiful way.\n 
             A user if wants to order a burger must need to sign up.If user has already an account needs to login than only order its burger can be ordered.
-            He can order its burger by filling his contact details with the freont end validations. Account authentication is done from firebaase as backend.User can also see his past orders.
+            He can order its burger by filling his contact details with the front end validations. Account authentication is done from firebaase as backend.User can also see his past orders.
             The past orders are stored with all the other details of the user in firebase.
             \nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
             "images": ['./images/burger1.png','./images/burger2.png','./images/burger3.png','./images/burger4.png',
