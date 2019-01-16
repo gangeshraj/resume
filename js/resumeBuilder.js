@@ -56,13 +56,13 @@ var work={
           "title": "Software Engineer" ,
           "location": "Bangalore" ,
           "dates": "03-09-18",
-          "description": "Developed front page of AirAsia.com.Our objective was to have fast loading time within 3 seconds with the beautiful designs. We used angular 7 without any libraries.Components developed here should be robust independent and usable anywhere. Successfully released front page with new versions to come.Worked on All the Ui features which developed from plain typescript,css which makes the page fast,optimal. We avoided using anythird party libraries other than base framework Angular 7 "
+          "description": "Developed Home page of AirAsia.com. Our objective was to have faster loading time within 3 seconds with beautiful designs. . Developed Components are robust, independent and reusable. We developed Home page with minimalistic usage of third-party libraries other than base framework Angular 7. I worked on also calendar of Air Asia homepage which was completely developed without usage of any libraries like moment.js.This calendar is having different perspective in terms of UI and functionality for different views.Contributed to each project delivery phase (analysis, development, test, ops) in different roles."
          },
          {"employer": "Infosys Limited",
           "title": "System Engineer" ,
           "location": "Bangalore" ,
           "dates": "06-11-17",
-          "description": "In Infosys trainig Mysore developed a digital wallet where people have all the online booking,transaction features. Worked on Movie booking platform which we developed in Angular 4 with node express as backend where people could see book the tickets with dummy backend. After training worked with American Express via Infosys to develop UI designs using React,Redux. The design was highly scalable with redux as the central state to manage all the Client and banking data across the web app. "
+          "description": "During Infosys training, developed a digital wallet where people have a user interface as well as safe and secure transactional capabilities. Worked on Movie booking platform which we developed in Angular 4 with Node,Express.js as backend where people could book the tickets. After training, I worked with my client American Express via Infosys to develop UI designs using React Redux. The design was highly scalable with redux as the central state to manage all the Client and banking data across the web app."
          }
           ],
         "display": function() {
@@ -90,13 +90,13 @@ var projects={
            {
             "title": " Digital Wallet (Infosys Training) ",
             "dates": "06-11-17",
-            "description": "Developed a Digital Wallet using python ,oracle as back end with dummy data.The user had all the options which a digital wallet would offer. Recharge of mobile number ,adding money in wallet from banks ,attaching card and bank details with wallet account,transferring money to other user accounts,Lending money to other users,booking tickets etc",
+            "description": "Developed a Digital Wallet that provides user all the options which a digital wallet would offer. Using this user can recharge mobile number, add money in wallet from bank account, transfer money to other or own bank account, book tickets etc. The whole details of all operations were stored in oracle database. Includes coding in Python, Oracle as backend.",
             "images": []
            },
            {
             "title": " Movie Booking Platform (Infosys Training) ",
             "dates": "10-01-2018",
-            "description": "Developed a movie booking platform.Here user could login with his credentials after signing up.Than user could start see the tickets that are available in a beatiful UI representation for so and so dates. After  confirming the tickets user could buy the tickets. All the validations are done in front end side and also at back end side .Front – End: Angular, typescript. HTML, CSS, bootstrap, jQuery. Back – End: JavaScript, Node, Express MySQL.",
+            "description": "Built a movie booking platform. Once the users have registered into the application, they can now log-in using login credentials (mobile number &amp; password). Or else, they may also choose to log-in via social links, like Facebook &amp; email. The user can now view the ongoing and upcoming movies and choose show time under a particular cinema, can pick seat quantity to be booked, choose a seat (by viewing it in graphic seat map, ifselecting movie) and then book. After confirming the tickets user could back end side. Includes coding in Angular, TypeScript, HTML, CSS, bootstrap, jQuery for frontend and JavaScript, Node, Express, MySQL for backend.",
             "images": []
             }
             ,
@@ -105,9 +105,9 @@ var projects={
             "hosted":"https://burger-app-react-gangesh.firebaseapp.com/",
             "dates": "27-04-18",
             "description": `Developed single page application which creates a burger with some ingredients with a beautifulUI .A user chooses its ingredients which is seen in beautiful way.\n 
-            A user if wants to order a burger must need to sign up.If user has already an account needs to login than only order its burger can be ordered.
-            He can order its burger by filling his contact details with the front end validations. Account authentication is done from firebaase as backend.User can also see his past orders.
-            The past orders are stored with all the other details of the user in firebase.
+            Application is simple to navigate and easy to customize as per the user need.A user if wants to order a burger must need to sign up.If user has already an account needs to login than only burger can be ordered.
+            He can order its burger by filling his contact details with the front end validations. Restful calls are made swith the help of axios API.Account authentication is done from firebaase as backend.User can also see his past orders.
+            The past orders are stored with all the other details of the user in firebase.User log in status is also maintained in the browser by the token received from firebase.
             \nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
             "images": ['./images/burger1.png','./images/burger2.png','./images/burger3.png','./images/burger4.png',
             './images/burger5.png','./images/burger6.png','./images/burger7.png'
@@ -118,7 +118,7 @@ var projects={
             "title": "SINGLE MEMORY GAME PAGE APPLICATION(click to see)",
             "hosted":"https://gangeshraj.github.io/Memorygame/",
             "dates": "05-10-2017",
-            "description": "Memory game projects where player has to verify the cards in pairs consecutively to get all the card displayed.\nPlayer will be shown the rule of game once clicked on start game button.The rule shown will be in modal box.The cards will be shown momentarily and than hidden.Than timer will start which tells user how much time is happening.There is also rest button which shuffles the card and resets the game.After game completion user will be shown time taken and star won.Technologies used: JavaScript, jQuery, HTML, CSS ",
+            "description": "Memory game projects where player has to verify the cards in pairs consecutively to get all the card displayed.\nPlayer will be shown the rule of game once clicked on start game button.The rule shown will be in modal box.The cards will be shown momentarily and than hidden.Than timer will start which tells user how much time is passed.There is also rest button which shuffles the card and resets the game.After game completion user will be shown time taken and star won.Technologies used: JavaScript, jQuery, HTML, CSS ",
             "images": ['./images/memory1.png','./images/memory2.png','./images/memory3.png','./images/memory4.png']
             },
             {
