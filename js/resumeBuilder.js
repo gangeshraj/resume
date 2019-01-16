@@ -56,13 +56,13 @@ var work={
           "title": "Software Engineer" ,
           "location": "Bangalore" ,
           "dates": "03-09-18",
-          "description": "Developed Home page of AirAsia.com. Our objective was to have faster loading time within 3 seconds with beautiful designs. . Developed Components are robust, independent and reusable. We developed Home page with minimalistic usage of third-party libraries other than base framework Angular 7. I worked on also calendar of Air Asia homepage which was completely developed without usage of any libraries like moment.js.This calendar is having different perspective in terms of UI and functionality for different views.Contributed to each project delivery phase (analysis, development, test, ops) in different roles."
+          "description": "Developed Home page of AirAsia.com. Our objective was to have faster loading time within 3 seconds with beautiful designs. . Developed Components are robust, independent and reusable. We developed Home page with minimalistic usage of third-party libraries other than base framework Angular 7. I worked on calendar component of homepage which was completely developed without usage of any libraries. It was developed with only typescript and its inbuilt functions.This calendar is having different perspective in terms of UI and functionality for different views. According to source,destination,flight availability the fares are fetched and shown on the dates.Also for two way and one way journey the range of the dates are shown in continious colurful pattern.Contributed to each project delivery phase (analysis, development, test, ops) in different roles."
          },
          {"employer": "Infosys Limited",
           "title": "System Engineer" ,
           "location": "Bangalore" ,
           "dates": "06-11-17",
-          "description": "During Infosys training, developed a digital wallet where people have a user interface as well as safe and secure transactional capabilities. Worked on Movie booking platform which we developed in Angular 4 with Node,Express.js as backend where people could book the tickets. After training, I worked with my client American Express via Infosys to develop UI designs using React Redux. The design was highly scalable with redux as the central state to manage all the Client and banking data across the web app."
+          "description": "During training, developed a digital wallet where people have a user interface as well as safe and secure transactional capabilities. Worked on Movie booking platform which we developed in Angular 4 with Node,Express.js as backend where people could book the tickets. After training, I worked with my client American Express via Infosys to develop UI designs using React Redux. The design was highly scalable with redux as the central state to manage all the Client and banking data across the web app."
          }
           ],
         "display": function() {
