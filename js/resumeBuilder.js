@@ -96,7 +96,7 @@ var projects={
            {
             "title": " Movie Booking Platform (Infosys Training) ",
             "dates": "10-01-2018",
-            "description": "Built a movie booking platform. Once the users have registered into the application, they can now log-in using login credentials (mobile number &amp; password). Or else, they may also choose to log-in via social links, like Facebook &amp; email. The user can now view the ongoing and upcoming movies and choose show time under a particular cinema, can pick seat quantity to be booked, choose a seat (by viewing it in graphic seat map, ifselecting movie) and then book. After confirming the tickets user could back end side. Includes coding in Angular, TypeScript, HTML, CSS, bootstrap, jQuery for frontend and JavaScript, Node, Express, MySQL for backend.",
+            "description": "Built a movie booking platform. Once the users have registered into the project, they can now log-in using login credentials (mobile number &amp; password). Or else, they may also choose to log-in via social links, like Facebook &amp; email. The user can now view the ongoing and upcoming movies and choose show time under a particular cinema, can pick seat quantity to be booked, choose a seat (by viewing it in graphic seat map, ifselecting movie) and then book. After confirming the tickets user could back end side. Includes coding in Angular, TypeScript, HTML, CSS, bootstrap, jQuery for frontend and JavaScript, Node, Express, MySQL for backend.",
             "images": []
             }
             ,
@@ -104,42 +104,44 @@ var projects={
             "title": " A BURGER BUILDER SINGLE PAGE APP (click to see) ",
             "hosted":"https://burger-app-react-gangesh.firebaseapp.com/",
             "dates": "27-04-18",
-            "description": `Developed single page application which creates a burger with some ingredients with a beautifulUI .A user chooses its ingredients which is seen in beautiful way.\n 
-            Application is simple to navigate and easy to customize as per the user need.A user if wants to order a burger must need to sign up.If user has already an account needs to login than only burger can be ordered.
-            He can order its burger by filling his contact details with the front end validations. Restful calls are made swith the help of axios API.Account authentication is done from firebaase as backend.User can also see his past orders.
-            The past orders are stored with all the other details of the user in firebase.User log in status is also maintained in the browser by the token received from firebase.
-            \nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
+            "description": `Developed single page project which creates a burger with some ingredients with an attractive UI .A user chooses the ingredients which is shown on screen.\n 
+            project is simple to navigate and easy to customize as per the user need.User need to first register themselves to login into the project to order a burger.
+            Axios api is used for RESTful calls .Account authentication is done from firebase.User can also see his past orders with all the other details.
+            User log in status is also maintained in the browser by the token received from Firebase.
+            \nIncludes coding
+            in React, Redux, Redux-Saga, Redux-Thunk, RESTful calls using - Axios
+            API for frontend and Firebase for backend.`,
             "images": ['./images/burger1.png','./images/burger2.png','./images/burger3.png','./images/burger4.png',
             './images/burger5.png','./images/burger6.png','./images/burger7.png'
             ,'./images/burger8.png','./images/burger9.png','./images/burger10.png']
             }
             ,
            {
-            "title": "SINGLE MEMORY GAME PAGE APPLICATION(click to see)",
+            "title": "SINGLE MEMORY GAME PAGE project(click to see)",
             "hosted":"https://gangeshraj.github.io/Memorygame/",
             "dates": "05-10-2017",
-            "description": "Memory game projects where player has to verify the cards in pairs consecutively to get all the card displayed.\nPlayer will be shown the rule of game once clicked on start game button.The rule shown will be in modal box.The cards will be shown momentarily and than hidden.Than timer will start which tells user how much time is passed.There is also rest button which shuffles the card and resets the game.After game completion user will be shown time taken and star won.Technologies used: JavaScript, jQuery, HTML, CSS ",
+            "description": "Developed Memory game project where player has to verify the cards in pairs consecutively to get all the card displayed.\nPlayer will be shown the rule of game once clicked on start game button.The rule shown will be in modal box.All the cards will be shown momentarily and than hidden.Than timer will start which tells user how much time is passed.There is a reset button which resets the game and shuffle the card.After game completion user will be shown time taken and star won.Includes coding: JavaScript, jQuery, HTML, CSS",
             "images": ['./images/memory1.png','./images/memory2.png','./images/memory3.png','./images/memory4.png']
             },
             {
             "title": "A SIMPLE NEIGHBOURHOOD SINGLE PAGE APP(click to see)",
             "hosted": "https://gangeshraj.github.io/neighbourhood/",
             "dates": "18-10-2017",
-            "description": "Developed a single page web application. This app shows you some places on google map with markers.You can filter the map location on basis of input where all data binding is happening using knockout framework.The places when clicked on list shown as well as on map gives some details.These details are fetched from foursquare API. Technologies used:  JavaScript, jQuery,Knockout.js organisational framework Google Map API, Bootstrap, foursquare API ",
+            "description": "Developed a single page web application. This app shows you some places on google map with markers.You can filter locations on map based on the input, where all data binding is happening using knockout framework.The places when clicked on list shown as well as on map gives some details.These details are fetched from Foursquare API. Includes Coding:  JavaScript, jQuery,Knockout.js organisational framework ,Google Map API, Bootstrap, Foursquare API ",
             "images": ['./images/neighbour1.png','./images/neighbour2.png','./images/neighbour3.png','./images/neighbour4.png']
             },
             {
             "title": "CLASSIC ARCADE SINGLE PAGE GAME(click to see) ",
             "hosted": "https://gangeshraj.github.io/Gamearcade/",
             "dates": "21-09-2017",
-            "description": "Developed Classic arcade game project where character is to cross the path without conflicting the enemies. This project uses JavaScript object oriented programming.After crossing each path level increases as well as enemies. Technologies used:  JavaScript, jQuery, HTML, CSS  ",
+            "description": "Developed Classic arcade game application where character is to cross the path without conflicting the enemies. This project uses JavaScript object oriented programming.After crossing each path level increases as well as enemies. Technologies used:  JavaScript, jQuery, HTML, CSS  ",
             "images": ['./images/classic1.png','./images/classic2.png']
             }
             ,
             {
             "title": "ONLINE RESUME(click to see)",
             "dates": "15-09-2017",
-            "description": "Personal online Resume where each detail is stored in JavaScript object. This Object stored is inserted into HTML template using jQuery.This project also uses Google Map API to shows places where I have worked and lived.       Technologies used:  JavaScript, jQuery, HTML, CSS ",
+            "description": "Created Personal online Resume where each detail is stored in JavaScript object. The Objects stored is inserted into HTML template using jQuery.This project also uses Google Map API to shows places where I have worked and lived.  Includes coding:  JavaScript, jQuery, HTML, CSS ",
             "images": ['./images/resume1.png','./images/resume2.png','./images/resume3.png']
             },
             ,
@@ -147,7 +149,7 @@ var projects={
             "title": "DRAWING CANVAS(click to see)",
             "hosted": "https://gangeshraj.github.io/2-D-canvas/",
             "dates": "1-09-2017",
-            "description": "A canvas where you can draw .The user can choose his size of grid.The user can also choose his color choices for each grid.  Technologies used:  JavaScript, jQuery, HTML, CSS",
+            "description": "Created canvas where you can draw graphics with your wish of colours and size. Includes coding in JavaScript, jQuery, HTML, CSS.",
             "images": ['./images/canvas1.png','./images/canvas2.png','./images/canvas3.png']
             }
             ,
@@ -155,7 +157,7 @@ var projects={
             "title": "JASMINE TESTING(click to see)",
             "hosted": "https://gangeshraj.github.io/Jasmine-testing/",
             "dates": "10-09-2017",
-            "description": "Project on testing.Testing framework used is jasmine ",
+            "description": "Worked for Project on jasmine testing. Testing framework used is Jasmine.",
             "images": []
             }    
 
