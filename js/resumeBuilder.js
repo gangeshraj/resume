@@ -104,9 +104,11 @@ var projects={
             "title": " A BURGER BUILDER SINGLE PAGE APP (click to see) ",
             "hosted":"https://burger-app-react-gangesh.firebaseapp.com/",
             "dates": "27-04-18",
-            "description": `Developed single page application which creates a burger with some ingredients.A user 
-            chooses its ingredients.\n A user to order a burger must need to sign up and if signed up needs to login than only order its burger 
-            by filling contact details.\nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
+            "description": `Developed single page application which creates a burger with some ingredients with a beautifulUI .A user chooses its ingredients which is seen in beautiful way.\n 
+            A user if wants to order a burger must need to sign up.If user has already an account needs to login than only order its burger can be ordered.
+            He can order its burger by filling his contact details with the freont end validations. Account authentication is done from firebaase as backend.User can also see his past orders.
+            The past orders are stored with all the other details of the user in firebase.
+            \nTechnologies used : FRONT END:- React ,Redux ,Redux-saga,Redux thunk,REstfull calls using - AXIOS API  BACK END:- FIREBASE`,
             "images": ['./images/burger1.png','./images/burger2.png','./images/burger3.png','./images/burger4.png',
             './images/burger5.png','./images/burger6.png','./images/burger7.png'
             ,'./images/burger8.png','./images/burger9.png','./images/burger10.png']
@@ -116,21 +118,21 @@ var projects={
             "title": "SINGLE MEMORY GAME PAGE APPLICATION(click to see)",
             "hosted":"https://gangeshraj.github.io/Memorygame/",
             "dates": "05-10-2017",
-            "description": "Memory game projects where user has to verify the cards in pairs consecutively to get all the card displayed.Technologies used:  JavaScript, jQuery, HTML, CSS ",
+            "description": "Memory game projects where player has to verify the cards in pairs consecutively to get all the card displayed.\nPlayer will be shown the rule of game once clicked on start game button.The rule shown will be in modal box.The cards will be shown momentarily and than hidden.Than timer will start which tells user how much time is happening.There is also rest button which shuffles the card and resets the game.After game completion user will be shown time taken and star won.Technologies used: JavaScript, jQuery, HTML, CSS ",
             "images": ['./images/memory1.png','./images/memory2.png','./images/memory3.png','./images/memory4.png']
             },
             {
             "title": "A SIMPLE NEIGHBOURHOOD SINGLE PAGE APP(click to see)",
             "hosted": "https://gangeshraj.github.io/neighbourhood/",
             "dates": "18-10-2017",
-            "description": "Developed a single page web application, where you can get the location on Google Map  using google map API and location’s details using foursquare API. Technologies used:  JavaScript, jQuery,Knockout.js organisational framework Google Map API, Bootstrap, foursquare API ",
+            "description": "Developed a single page web application. This app shows you some places on google map with markers.You can filter the map location on basis of input where all data binding is happening using knockout framework.The places when clicked on list shown as well as on map gives some details.These details are fetched from foursquare API. Technologies used:  JavaScript, jQuery,Knockout.js organisational framework Google Map API, Bootstrap, foursquare API ",
             "images": ['./images/neighbour1.png','./images/neighbour2.png','./images/neighbour3.png','./images/neighbour4.png']
             },
             {
             "title": "CLASSIC ARCADE SINGLE PAGE GAME(click to see) ",
             "hosted": "https://gangeshraj.github.io/Gamearcade/",
             "dates": "21-09-2017",
-            "description": "Developed Classic arcade game project where character is to cross the path without conflicting the enemies using JavaScript object.            Technologies used:  JavaScript, jQuery, HTML, CSS  ",
+            "description": "Developed Classic arcade game project where character is to cross the path without conflicting the enemies. This project uses JavaScript object oriented programming.After crossing each path level increases as well as enemies. Technologies used:  JavaScript, jQuery, HTML, CSS  ",
             "images": ['./images/classic1.png','./images/classic2.png']
             }
             ,
@@ -145,7 +147,7 @@ var projects={
             "title": "DRAWING CANVAS(click to see)",
             "hosted": "https://gangeshraj.github.io/2-D-canvas/",
             "dates": "1-09-2017",
-            "description": "A canvas where you can draw with your wish of colors and size of canvas.  Technologies used:  JavaScript, jQuery, HTML, CSS",
+            "description": "A canvas where you can draw .The user can choose his size of grid.The user can also choose his color choices for each grid.  Technologies used:  JavaScript, jQuery, HTML, CSS",
             "images": ['./images/canvas1.png','./images/canvas2.png','./images/canvas3.png']
             }
             ,
